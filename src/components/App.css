@@ -95,3 +95,23 @@ h6{
   color: #1A374D;
   font-size: 94.15%;
 }
+
+
+@media only screen and (max-width: 844px) {
+  
+  .emoji-banner > .emoji-board{
+    text-align: center;
+    /* max-width: 20rem; */
+    margin-bottom: 3rem;
+    min-width: 85%;
+    
+    
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #EEF2FF;
+    transition: all 100ms ease-in-out;
+    
+  
+  }
+}
